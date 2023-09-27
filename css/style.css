@@ -1,0 +1,93 @@
+body {
+  font-family: "open sans",Arial, Helvetica, sans-serif; }
+
+header .fa-facebook {
+  background: #1877f2;
+  font-size: 15px;
+  color: #fff;
+  display: none; }
+header .fa-youtube {
+  background: #ff0000;
+  font-size: 15px;
+  color: #fff;
+  display: none; }
+header .fa-instagram {
+  background: #c13584;
+  font-size: 15px;
+  color: #fff;
+  display: none; }
+header .fa-facebook:hover,
+header .fa-youtube:hover,
+header .fa-instagram:hover {
+  opacity: .8;
+  cursor: pointer;
+  transition: all .7s ease; }
+
+.nav-menu .ul-menu .li-menu a:hover {
+  color: #fff;
+  padding-bottom: 10px; }
+.nav-menu .button-menu-toggler {
+  margin-bottom: 10px; }
+.nav-menu .button-menu-toggler:hover {
+  background: #000;
+  padding-left: 20px;
+  transition: all 1s ease;
+  color: #fff; }
+.nav-menu .ul-menu-toggler .li-menu-toggler:hover {
+  background: #000;
+  padding-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 1s ease; }
+  .nav-menu .ul-menu-toggler .li-menu-toggler:hover a:hover {
+    width: 100%;
+    color: #fff; }
+
+.nav-aboutUs .li-aboutUs .a-aboutUs {
+  color: #ccc; }
+.nav-aboutUs .li-aboutUs .a-aboutUs:hover {
+  color: #fff; }
+.nav-aboutUs .btn-aboutUs-dropdown:hover {
+  background: #000;
+  padding-left: 20px;
+  transition: all 1s ease; }
+.nav-aboutUs .ul-aboutUs-dropdown {
+  padding: 5px; }
+  .nav-aboutUs .ul-aboutUs-dropdown .a-aboutUs-dropdown {
+    padding: 1px; }
+  .nav-aboutUs .ul-aboutUs-dropdown .a-aboutUs-dropdown:hover {
+    background: #000;
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 20px;
+    transition: all 1s ease; }
+
+.main h3 {
+  border-bottom: 2px solid green;
+  padding-bottom: 20px; }
+.main .articles img {
+  opacity: .8; }
+.main .articles img:hover {
+  opacity: 1.0;
+  transition: all .7s ease;
+  cursor: pointer; }
+.main .sideBar .fa-facebook {
+  background: #1877f2;
+  font-size: 30px;
+  color: #fff; }
+.main .sideBar .fa-youtube {
+  background: #ff0000;
+  font-size: 30px;
+  color: #fff; }
+.main .sideBar .fa-instagram {
+  background: #c13584;
+  font-size: 30px;
+  color: #fff; }
+.main .sideBar .fa-facebook:hover,
+.main .sideBar .fa-youtube:hover,
+.main .sideBar .fa-instagram:hover {
+  opacity: .8;
+  cursor: pointer;
+  transition: all .7s ease; }
+
+/*# sourceMappingURL=style.css.map */

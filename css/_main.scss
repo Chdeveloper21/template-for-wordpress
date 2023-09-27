@@ -1,0 +1,49 @@
+.main {
+    h3 {
+        border-bottom: 2px solid green;
+        padding-bottom: 20px;
+    }
+
+    .articles {
+        img {
+            opacity: .8;
+        }
+        img:hover {
+            opacity: 1.0;
+            transition: all .7s ease;
+            cursor: pointer;
+        }
+
+    }
+
+
+    .sideBar {
+        .fa-facebook {
+            background: #1877f2;
+            font-size: 30px;
+            color: #fff;
+        }
+        .fa-youtube {
+            background: #ff0000;
+            font-size: 30px;
+            color: #fff;
+        }
+        .fa-instagram  {
+            background: #c13584;
+            font-size: 30px;
+            color: #fff;
+           
+        }
+
+        .fa-facebook:hover,
+        .fa-youtube:hover,
+        .fa-instagram:hover {
+           opacity: .8;
+           cursor: pointer;
+           transition: all .7s ease;
+        
+        }
+    }
+
+
+}

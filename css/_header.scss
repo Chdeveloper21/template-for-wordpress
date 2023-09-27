@@ -1,0 +1,28 @@
+header {
+    .fa-facebook {
+        background: #1877f2;
+        font-size: 15px;
+        color: #fff;
+        display: none;
+    }
+    .fa-youtube {
+        background: #ff0000;
+        font-size: 15px;
+        color: #fff;
+        display: none;
+    }
+    .fa-instagram  {
+        background: #c13584;
+        font-size: 15px;
+        color: #fff;
+        display: none;
+    }
+
+    .fa-facebook:hover,
+    .fa-youtube:hover,
+    .fa-instagram:hover {
+       opacity: .8;
+       cursor: pointer;
+       transition: all .7s ease;
+    }
+}

@@ -1,0 +1,85 @@
+.nav-menu { 
+    
+    .ul-menu {
+        
+        .li-menu {
+           
+        
+            a:hover {
+                color: #fff;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+
+    .button-menu-toggler {
+        margin-bottom: 10px;
+        
+    }
+
+    .button-menu-toggler:hover {
+        background: #000;
+        padding-left: 20px;
+        transition: all 1s ease;
+        color: #fff;
+
+       
+    }
+
+    .ul-menu-toggler {
+        .li-menu-toggler:hover {
+            background: #000;
+            padding-left: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 1s ease;
+            a:hover {
+                width: 100%;
+              
+               color: #fff;
+            
+            }
+        }
+    }
+}
+
+.nav-aboutUs {
+
+    .li-aboutUs {
+
+        .a-aboutUs {
+            color: #ccc;
+         }
+
+        .a-aboutUs:hover {
+            color: #fff;
+            
+       }
+
+    }
+    .btn-aboutUs-dropdown:hover {
+        background: #000;
+        padding-left: 20px;
+        transition: all 1s ease;
+    }
+
+    .ul-aboutUs-dropdown {
+        padding: 5px;
+
+        .a-aboutUs-dropdown {
+            padding: 1px;
+        }
+        
+        .a-aboutUs-dropdown:hover {
+            background: #000;
+            border-radius: 5px;
+            color: #fff;
+            padding-left: 20px;
+            transition: all 1s ease;
+           
+        }
+
+        
+    }
+}
